@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A4B9FD1BABED0B007EA628 /* DCCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4B9FC1BABED0B007EA628 /* DCCover.m */; };
+		40A4BA001BABF1AE007EA628 /* DCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4B9FF1BABF1AE007EA628 /* DCMenu.m */; };
+		40A4BA021BABF1DD007EA628 /* DCMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A4BA011BABF1DD007EA628 /* DCMenu.xib */; };
+		40A4BA051BABFD34007EA628 /* DCBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA041BABFD34007EA628 /* DCBackView.m */; };
+		40A4BA081BAC02CB007EA628 /* DCArenaNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA071BAC02CB007EA628 /* DCArenaNavViewController.m */; };
+		40A4BA0E1BAC0494007EA628 /* UIImage+DCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA0D1BAC0494007EA628 /* UIImage+DCExtension.m */; };
+		40A4BA101BAC0A8D007EA628 /* DCMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A4BA0F1BAC0A8D007EA628 /* DCMyViewController.xib */; };
+		40A4BA121BAC1AD3007EA628 /* DCDiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A4BA111BAC1AD3007EA628 /* DCDiscoverViewController.storyboard */; };
+		40A4BA151BAC1E82007EA628 /* DCBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA141BAC1E82007EA628 /* DCBuyViewController.m */; };
+		40A4BA1B1BAC24E6007EA628 /* DCBuyBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA1A1BAC24E6007EA628 /* DCBuyBtn.m */; };
+		40A4BA1E1BACF14D007EA628 /* DCLucyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA1D1BACF14D007EA628 /* DCLucyViewController.m */; };
+		40A4BA241BACFB9A007EA628 /* DCNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA231BACFB9A007EA628 /* DCNewFeatureViewController.m */; };
+		40A4BA271BACFBBB007EA628 /* DCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA261BACFBBB007EA628 /* DCCollectionViewCell.m */; };
+		40A4BA2E1BAD3C9B007EA628 /* DCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA2D1BAD3C9B007EA628 /* DCBaseController.m */; };
+		40A4BA311BAD3CE7007EA628 /* DCGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA301BAD3CE7007EA628 /* DCGroupItem.m */; };
+		40A4BA341BAD3CFC007EA628 /* DCSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA331BAD3CFC007EA628 /* DCSettingItem.m */; };
+		40A4BA371BAD3D2C007EA628 /* DCSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA361BAD3D2C007EA628 /* DCSettingViewController.m */; };
+		40A4BA3A1BAD3D94007EA628 /* DCSettingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA391BAD3D94007EA628 /* DCSettingViewCell.m */; };
+		40A4BA3D1BAD41B1007EA628 /* DCArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA3C1BAD41B1007EA628 /* DCArrowItem.m */; };
+		40A4BA401BAD4227007EA628 /* DCSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA3F1BAD4227007EA628 /* DCSwitchItem.m */; };
+		40A4BA431BAD561B007EA628 /* DCPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA421BAD561B007EA628 /* DCPushViewController.m */; };
+		40A4BA481BAD5AA4007EA628 /* DCScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA471BAD5AA4007EA628 /* DCScoreViewController.m */; };
+		40A4BA4B1BAD5AC1007EA628 /* DCAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA4A1BAD5AC1007EA628 /* DCAwardViewController.m */; };
+		40A4BA511BAD6F72007EA628 /* DCSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA501BAD6F72007EA628 /* DCSaveTool.m */; };
+		40A4BA541BAD708E007EA628 /* DCGuideTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A4BA531BAD708E007EA628 /* DCGuideTool.m */; };
+		40A7B1661BAB9F94002475B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A7B1651BAB9F94002475B1 /* Images.xcassets */; };
+		40A7B1691BAB9F94002475B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A7B1671BAB9F94002475B1 /* LaunchScreen.xib */; };
+		40A7B1751BAB9F94002475B1 /* DCLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1741BAB9F94002475B1 /* DCLotteryTests.m */; };
+		40A7B1A41BABA28F002475B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B19D1BABA28F002475B1 /* AppDelegate.m */; };
+		40A7B1A51BABA28F002475B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B19E1BABA28F002475B1 /* main.m */; };
+		40A7B1A81BABA4D3002475B1 /* DCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1A71BABA4D3002475B1 /* DCTabBarController.m */; };
+		40A7B1AB1BABA6AD002475B1 /* DCArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1AA1BABA6AD002475B1 /* DCArenaViewController.m */; };
+		40A7B1AE1BABA6E8002475B1 /* DCDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1AD1BABA6E8002475B1 /* DCDiscoverViewController.m */; };
+		40A7B1B11BABA70D002475B1 /* DCHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1B01BABA70D002475B1 /* DCHallViewController.m */; };
+		40A7B1B41BABA734002475B1 /* DCHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1B31BABA734002475B1 /* DCHistoryViewController.m */; };
+		40A7B1B71BABA7AF002475B1 /* DCMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1B61BABA7AF002475B1 /* DCMyViewController.m */; };
+		40A7B1BA1BABAF2A002475B1 /* DCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1B91BABAF2A002475B1 /* DCNavigationViewController.m */; };
+		40A7B1C01BABB6A8002475B1 /* DCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1BF1BABB6A8002475B1 /* DCTabBar.m */; };
+		40A7B1C31BABBCD6002475B1 /* DCTabBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1C21BABBCD6002475B1 /* DCTabBarBtn.m */; };
+		40A7B1C91BABC01B002475B1 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1C61BABC01B002475B1 /* UIImage+Image.m */; };
+		40A7B1CA1BABC01B002475B1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B1C81BABC01B002475B1 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A7B16F1BAB9F94002475B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A7B14D1BAB9F94002475B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A7B1541BAB9F94002475B1;
+			remoteInfo = DCLottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40A4B9FB1BABED0B007EA628 /* DCCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCover.h; sourceTree = "<group>"; };
+		40A4B9FC1BABED0B007EA628 /* DCCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCover.m; sourceTree = "<group>"; };
+		40A4B9FE1BABF1AE007EA628 /* DCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMenu.h; sourceTree = "<group>"; };
+		40A4B9FF1BABF1AE007EA628 /* DCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMenu.m; sourceTree = "<group>"; };
+		40A4BA011BABF1DD007EA628 /* DCMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCMenu.xib; sourceTree = "<group>"; };
+		40A4BA031BABFD34007EA628 /* DCBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBackView.h; sourceTree = "<group>"; };
+		40A4BA041BABFD34007EA628 /* DCBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBackView.m; sourceTree = "<group>"; };
+		40A4BA061BAC02CB007EA628 /* DCArenaNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCArenaNavViewController.h; sourceTree = "<group>"; };
+		40A4BA071BAC02CB007EA628 /* DCArenaNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCArenaNavViewController.m; sourceTree = "<group>"; };
+		40A4BA0C1BAC0494007EA628 /* UIImage+DCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DCExtension.h"; sourceTree = "<group>"; };
+		40A4BA0D1BAC0494007EA628 /* UIImage+DCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DCExtension.m"; sourceTree = "<group>"; };
+		40A4BA0F1BAC0A8D007EA628 /* DCMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCMyViewController.xib; sourceTree = "<group>"; };
+		40A4BA111BAC1AD3007EA628 /* DCDiscoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DCDiscoverViewController.storyboard; sourceTree = "<group>"; };
+		40A4BA131BAC1E82007EA628 /* DCBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBuyViewController.h; sourceTree = "<group>"; };
+		40A4BA141BAC1E82007EA628 /* DCBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBuyViewController.m; sourceTree = "<group>"; };
+		40A4BA191BAC24E6007EA628 /* DCBuyBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBuyBtn.h; sourceTree = "<group>"; };
+		40A4BA1A1BAC24E6007EA628 /* DCBuyBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBuyBtn.m; sourceTree = "<group>"; };
+		40A4BA1C1BACF14D007EA628 /* DCLucyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLucyViewController.h; sourceTree = "<group>"; };
+		40A4BA1D1BACF14D007EA628 /* DCLucyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLucyViewController.m; sourceTree = "<group>"; };
+		40A4BA221BACFB9A007EA628 /* DCNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNewFeatureViewController.h; sourceTree = "<group>"; };
+		40A4BA231BACFB9A007EA628 /* DCNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNewFeatureViewController.m; sourceTree = "<group>"; };
+		40A4BA251BACFBBB007EA628 /* DCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCollectionViewCell.h; sourceTree = "<group>"; };
+		40A4BA261BACFBBB007EA628 /* DCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCollectionViewCell.m; sourceTree = "<group>"; };
+		40A4BA2C1BAD3C9B007EA628 /* DCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBaseController.h; sourceTree = "<group>"; };
+		40A4BA2D1BAD3C9B007EA628 /* DCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseController.m; sourceTree = "<group>"; };
+		40A4BA2F1BAD3CE7007EA628 /* DCGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCGroupItem.h; sourceTree = "<group>"; };
+		40A4BA301BAD3CE7007EA628 /* DCGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCGroupItem.m; sourceTree = "<group>"; };
+		40A4BA321BAD3CFC007EA628 /* DCSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSettingItem.h; sourceTree = "<group>"; };
+		40A4BA331BAD3CFC007EA628 /* DCSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSettingItem.m; sourceTree = "<group>"; };
+		40A4BA351BAD3D2C007EA628 /* DCSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSettingViewController.h; sourceTree = "<group>"; };
+		40A4BA361BAD3D2C007EA628 /* DCSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSettingViewController.m; sourceTree = "<group>"; };
+		40A4BA381BAD3D94007EA628 /* DCSettingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSettingViewCell.h; sourceTree = "<group>"; };
+		40A4BA391BAD3D94007EA628 /* DCSettingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSettingViewCell.m; sourceTree = "<group>"; };
+		40A4BA3B1BAD41B1007EA628 /* DCArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCArrowItem.h; sourceTree = "<group>"; };
+		40A4BA3C1BAD41B1007EA628 /* DCArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCArrowItem.m; sourceTree = "<group>"; };
+		40A4BA3E1BAD4227007EA628 /* DCSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSwitchItem.h; sourceTree = "<group>"; };
+		40A4BA3F1BAD4227007EA628 /* DCSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSwitchItem.m; sourceTree = "<group>"; };
+		40A4BA411BAD561B007EA628 /* DCPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPushViewController.h; sourceTree = "<group>"; };
+		40A4BA421BAD561B007EA628 /* DCPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPushViewController.m; sourceTree = "<group>"; };
+		40A4BA461BAD5AA4007EA628 /* DCScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCScoreViewController.h; sourceTree = "<group>"; };
+		40A4BA471BAD5AA4007EA628 /* DCScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCScoreViewController.m; sourceTree = "<group>"; };
+		40A4BA491BAD5AC1007EA628 /* DCAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAwardViewController.h; sourceTree = "<group>"; };
+		40A4BA4A1BAD5AC1007EA628 /* DCAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAwardViewController.m; sourceTree = "<group>"; };
+		40A4BA4F1BAD6F72007EA628 /* DCSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSaveTool.h; sourceTree = "<group>"; };
+		40A4BA501BAD6F72007EA628 /* DCSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSaveTool.m; sourceTree = "<group>"; };
+		40A4BA521BAD708E007EA628 /* DCGuideTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCGuideTool.h; sourceTree = "<group>"; };
+		40A4BA531BAD708E007EA628 /* DCGuideTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCGuideTool.m; sourceTree = "<group>"; };
+		40A7B1551BAB9F94002475B1 /* DCLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A7B1591BAB9F94002475B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A7B1651BAB9F94002475B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40A7B1681BAB9F94002475B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40A7B16E1BAB9F94002475B1 /* DCLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A7B1731BAB9F94002475B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A7B1741BAB9F94002475B1 /* DCLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLotteryTests.m; sourceTree = "<group>"; };
+		40A7B19C1BABA28F002475B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40A7B19D1BABA28F002475B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40A7B19E1BABA28F002475B1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40A7B1A61BABA4D3002475B1 /* DCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTabBarController.h; sourceTree = "<group>"; };
+		40A7B1A71BABA4D3002475B1 /* DCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTabBarController.m; sourceTree = "<group>"; };
+		40A7B1A91BABA6AD002475B1 /* DCArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCArenaViewController.h; sourceTree = "<group>"; };
+		40A7B1AA1BABA6AD002475B1 /* DCArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCArenaViewController.m; sourceTree = "<group>"; };
+		40A7B1AC1BABA6E8002475B1 /* DCDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDiscoverViewController.h; sourceTree = "<group>"; };
+		40A7B1AD1BABA6E8002475B1 /* DCDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDiscoverViewController.m; sourceTree = "<group>"; };
+		40A7B1AF1BABA70D002475B1 /* DCHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCHallViewController.h; sourceTree = "<group>"; };
+		40A7B1B01BABA70D002475B1 /* DCHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCHallViewController.m; sourceTree = "<group>"; };
+		40A7B1B21BABA734002475B1 /* DCHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCHistoryViewController.h; sourceTree = "<group>"; };
+		40A7B1B31BABA734002475B1 /* DCHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCHistoryViewController.m; sourceTree = "<group>"; };
+		40A7B1B51BABA7AF002475B1 /* DCMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMyViewController.h; sourceTree = "<group>"; };
+		40A7B1B61BABA7AF002475B1 /* DCMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMyViewController.m; sourceTree = "<group>"; };
+		40A7B1B81BABAF2A002475B1 /* DCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNavigationViewController.h; sourceTree = "<group>"; };
+		40A7B1B91BABAF2A002475B1 /* DCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNavigationViewController.m; sourceTree = "<group>"; };
+		40A7B1BE1BABB6A8002475B1 /* DCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTabBar.h; sourceTree = "<group>"; };
+		40A7B1BF1BABB6A8002475B1 /* DCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTabBar.m; sourceTree = "<group>"; };
+		40A7B1C11BABBCD6002475B1 /* DCTabBarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTabBarBtn.h; sourceTree = "<group>"; };
+		40A7B1C21BABBCD6002475B1 /* DCTabBarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTabBarBtn.m; sourceTree = "<group>"; };
+		40A7B1C51BABC01B002475B1 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		40A7B1C61BABC01B002475B1 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		40A7B1C71BABC01B002475B1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		40A7B1C81BABC01B002475B1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A7B1521BAB9F94002475B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A7B16B1BAB9F94002475B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A4BA281BAD37DC007EA628 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA4C1BAD6E22007EA628 /* Tool */,
+				40A4BA291BAD37F2007EA628 /* Model */,
+				40A4BA2B1BAD37FF007EA628 /* Controller */,
+				40A4BA2A1BAD37FA007EA628 /* View */,
+			);
+			name = Setting;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		40A4BA291BAD37F2007EA628 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA2F1BAD3CE7007EA628 /* DCGroupItem.h */,
+				40A4BA301BAD3CE7007EA628 /* DCGroupItem.m */,
+				40A4BA321BAD3CFC007EA628 /* DCSettingItem.h */,
+				40A4BA331BAD3CFC007EA628 /* DCSettingItem.m */,
+				40A4BA3B1BAD41B1007EA628 /* DCArrowItem.h */,
+				40A4BA3C1BAD41B1007EA628 /* DCArrowItem.m */,
+				40A4BA3E1BAD4227007EA628 /* DCSwitchItem.h */,
+				40A4BA3F1BAD4227007EA628 /* DCSwitchItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		40A4BA2A1BAD37FA007EA628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA381BAD3D94007EA628 /* DCSettingViewCell.h */,
+				40A4BA391BAD3D94007EA628 /* DCSettingViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		40A4BA2B1BAD37FF007EA628 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA451BAD5A7C007EA628 /* PushView */,
+				40A4BA2C1BAD3C9B007EA628 /* DCBaseController.h */,
+				40A4BA2D1BAD3C9B007EA628 /* DCBaseController.m */,
+				40A4BA351BAD3D2C007EA628 /* DCSettingViewController.h */,
+				40A4BA361BAD3D2C007EA628 /* DCSettingViewController.m */,
+				40A4BA411BAD561B007EA628 /* DCPushViewController.h */,
+				40A4BA421BAD561B007EA628 /* DCPushViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		40A4BA451BAD5A7C007EA628 /* PushView */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA461BAD5AA4007EA628 /* DCScoreViewController.h */,
+				40A4BA471BAD5AA4007EA628 /* DCScoreViewController.m */,
+				40A4BA491BAD5AC1007EA628 /* DCAwardViewController.h */,
+				40A4BA4A1BAD5AC1007EA628 /* DCAwardViewController.m */,
+			);
+			name = PushView;
+			sourceTree = "<group>";
+		};
+		40A4BA4C1BAD6E22007EA628 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA4E1BAD6E36007EA628 /* SaveTool */,
+				40A4BA4D1BAD6E2C007EA628 /* GuideTool */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		40A4BA4D1BAD6E2C007EA628 /* GuideTool */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA521BAD708E007EA628 /* DCGuideTool.h */,
+				40A4BA531BAD708E007EA628 /* DCGuideTool.m */,
+			);
+			name = GuideTool;
+			sourceTree = "<group>";
+		};
+		40A4BA4E1BAD6E36007EA628 /* SaveTool */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA4F1BAD6F72007EA628 /* DCSaveTool.h */,
+				40A4BA501BAD6F72007EA628 /* DCSaveTool.m */,
+			);
+			name = SaveTool;
+			sourceTree = "<group>";
+		};
+		40A7B14C1BAB9F94002475B1 = {
+			isa = PBXGroup;
+			children = (
+				40A7B1571BAB9F94002475B1 /* DCLottery */,
+				40A7B1711BAB9F94002475B1 /* DCLotteryTests */,
+				40A7B1561BAB9F94002475B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A7B1561BAB9F94002475B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1551BAB9F94002475B1 /* DCLottery.app */,
+				40A7B16E1BAB9F94002475B1 /* DCLotteryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A7B1571BAB9F94002475B1 /* DCLottery */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B17E1BABA28F002475B1 /* Classes */,
+				40A7B1651BAB9F94002475B1 /* Images.xcassets */,
+				40A7B1671BAB9F94002475B1 /* LaunchScreen.xib */,
+				40A7B1581BAB9F94002475B1 /* Supporting Files */,
+			);
+			path = DCLottery;
+			sourceTree = "<group>";
+		};
+		40A7B1581BAB9F94002475B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1591BAB9F94002475B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A7B1711BAB9F94002475B1 /* DCLotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1741BAB9F94002475B1 /* DCLotteryTests.m */,
+				40A7B1721BAB9F94002475B1 /* Supporting Files */,
+			);
+			path = DCLotteryTests;
+			sourceTree = "<group>";
+		};
+		40A7B1721BAB9F94002475B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1731BAB9F94002475B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A7B17E1BABA28F002475B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA281BAD37DC007EA628 /* Setting */,
+				40A7B17F1BABA28F002475B1 /* Arena */,
+				40A7B1831BABA28F002475B1 /* Discover */,
+				40A7B1871BABA28F002475B1 /* Hall */,
+				40A7B18B1BABA28F002475B1 /* History */,
+				40A7B18F1BABA28F002475B1 /* Main */,
+				40A7B1931BABA28F002475B1 /* MyLottery */,
+				40A7B1971BABA28F002475B1 /* NewFeature */,
+				40A7B19B1BABA28F002475B1 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		40A7B17F1BABA28F002475B1 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1801BABA28F002475B1 /* Controller */,
+				40A7B1811BABA28F002475B1 /* Model */,
+				40A7B1821BABA28F002475B1 /* View */,
+			);
+			path = Arena;
+			sourceTree = "<group>";
+		};
+		40A7B1801BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1A91BABA6AD002475B1 /* DCArenaViewController.h */,
+				40A7B1AA1BABA6AD002475B1 /* DCArenaViewController.m */,
+				40A4BA061BAC02CB007EA628 /* DCArenaNavViewController.h */,
+				40A4BA071BAC02CB007EA628 /* DCArenaNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B1811BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B1821BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA031BABFD34007EA628 /* DCBackView.h */,
+				40A4BA041BABFD34007EA628 /* DCBackView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B1831BABA28F002475B1 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1841BABA28F002475B1 /* Controller */,
+				40A7B1851BABA28F002475B1 /* Model */,
+				40A7B1861BABA28F002475B1 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		40A7B1841BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1AC1BABA6E8002475B1 /* DCDiscoverViewController.h */,
+				40A7B1AD1BABA6E8002475B1 /* DCDiscoverViewController.m */,
+				40A4BA131BAC1E82007EA628 /* DCBuyViewController.h */,
+				40A4BA141BAC1E82007EA628 /* DCBuyViewController.m */,
+				40A4BA1C1BACF14D007EA628 /* DCLucyViewController.h */,
+				40A4BA1D1BACF14D007EA628 /* DCLucyViewController.m */,
+				40A4BA111BAC1AD3007EA628 /* DCDiscoverViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B1851BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B1861BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA191BAC24E6007EA628 /* DCBuyBtn.h */,
+				40A4BA1A1BAC24E6007EA628 /* DCBuyBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B1871BABA28F002475B1 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1881BABA28F002475B1 /* Controller */,
+				40A7B1891BABA28F002475B1 /* Model */,
+				40A7B18A1BABA28F002475B1 /* View */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		40A7B1881BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1AF1BABA70D002475B1 /* DCHallViewController.h */,
+				40A7B1B01BABA70D002475B1 /* DCHallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B1891BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B18A1BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40A4B9FB1BABED0B007EA628 /* DCCover.h */,
+				40A4B9FC1BABED0B007EA628 /* DCCover.m */,
+				40A4B9FE1BABF1AE007EA628 /* DCMenu.h */,
+				40A4B9FF1BABF1AE007EA628 /* DCMenu.m */,
+				40A4BA011BABF1DD007EA628 /* DCMenu.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B18B1BABA28F002475B1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B18C1BABA28F002475B1 /* Controller */,
+				40A7B18D1BABA28F002475B1 /* Model */,
+				40A7B18E1BABA28F002475B1 /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		40A7B18C1BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1B21BABA734002475B1 /* DCHistoryViewController.h */,
+				40A7B1B31BABA734002475B1 /* DCHistoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B18D1BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B18E1BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B18F1BABA28F002475B1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1901BABA28F002475B1 /* Controller */,
+				40A7B1911BABA28F002475B1 /* Model */,
+				40A7B1921BABA28F002475B1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		40A7B1901BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1A61BABA4D3002475B1 /* DCTabBarController.h */,
+				40A7B1A71BABA4D3002475B1 /* DCTabBarController.m */,
+				40A7B1B81BABAF2A002475B1 /* DCNavigationViewController.h */,
+				40A7B1B91BABAF2A002475B1 /* DCNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B1911BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B1921BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1BE1BABB6A8002475B1 /* DCTabBar.h */,
+				40A7B1BF1BABB6A8002475B1 /* DCTabBar.m */,
+				40A7B1C11BABBCD6002475B1 /* DCTabBarBtn.h */,
+				40A7B1C21BABBCD6002475B1 /* DCTabBarBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B1931BABA28F002475B1 /* MyLottery */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1941BABA28F002475B1 /* Controller */,
+				40A7B1951BABA28F002475B1 /* Model */,
+				40A7B1961BABA28F002475B1 /* View */,
+			);
+			path = MyLottery;
+			sourceTree = "<group>";
+		};
+		40A7B1941BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1B51BABA7AF002475B1 /* DCMyViewController.h */,
+				40A7B1B61BABA7AF002475B1 /* DCMyViewController.m */,
+				40A4BA0F1BAC0A8D007EA628 /* DCMyViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B1951BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B1961BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B1971BABA28F002475B1 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1981BABA28F002475B1 /* Controller */,
+				40A7B1991BABA28F002475B1 /* Model */,
+				40A7B19A1BABA28F002475B1 /* View */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		40A7B1981BABA28F002475B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA221BACFB9A007EA628 /* DCNewFeatureViewController.h */,
+				40A4BA231BACFB9A007EA628 /* DCNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40A7B1991BABA28F002475B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40A7B19A1BABA28F002475B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA251BACFBBB007EA628 /* DCCollectionViewCell.h */,
+				40A4BA261BACFBBB007EA628 /* DCCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40A7B19B1BABA28F002475B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				40A7B1C41BABBFF4002475B1 /* Category */,
+				40A7B19C1BABA28F002475B1 /* AppDelegate.h */,
+				40A7B19D1BABA28F002475B1 /* AppDelegate.m */,
+				40A7B19E1BABA28F002475B1 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		40A7B1C41BABBFF4002475B1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				40A4BA0C1BAC0494007EA628 /* UIImage+DCExtension.h */,
+				40A4BA0D1BAC0494007EA628 /* UIImage+DCExtension.m */,
+				40A7B1C51BABC01B002475B1 /* UIImage+Image.h */,
+				40A7B1C61BABC01B002475B1 /* UIImage+Image.m */,
+				40A7B1C71BABC01B002475B1 /* UIView+Frame.h */,
+				40A7B1C81BABC01B002475B1 /* UIView+Frame.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A7B1541BAB9F94002475B1 /* DCLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A7B1781BAB9F94002475B1 /* Build configuration list for PBXNativeTarget "DCLottery" */;
+			buildPhases = (
+				40A7B1511BAB9F94002475B1 /* Sources */,
+				40A7B1521BAB9F94002475B1 /* Frameworks */,
+				40A7B1531BAB9F94002475B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCLottery;
+			productName = DCLottery;
+			productReference = 40A7B1551BAB9F94002475B1 /* DCLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A7B16D1BAB9F94002475B1 /* DCLotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A7B17B1BAB9F94002475B1 /* Build configuration list for PBXNativeTarget "DCLotteryTests" */;
+			buildPhases = (
+				40A7B16A1BAB9F94002475B1 /* Sources */,
+				40A7B16B1BAB9F94002475B1 /* Frameworks */,
+				40A7B16C1BAB9F94002475B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A7B1701BAB9F94002475B1 /* PBXTargetDependency */,
+			);
+			name = DCLotteryTests;
+			productName = DCLotteryTests;
+			productReference = 40A7B16E1BAB9F94002475B1 /* DCLotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A7B14D1BAB9F94002475B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = duanchenvip;
+				TargetAttributes = {
+					40A7B1541BAB9F94002475B1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40A7B16D1BAB9F94002475B1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 40A7B1541BAB9F94002475B1;
+					};
+				};
+			};
+			buildConfigurationList = 40A7B1501BAB9F94002475B1 /* Build configuration list for PBXProject "DCLottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A7B14C1BAB9F94002475B1;
+			productRefGroup = 40A7B1561BAB9F94002475B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A7B1541BAB9F94002475B1 /* DCLottery */,
+				40A7B16D1BAB9F94002475B1 /* DCLotteryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A7B1531BAB9F94002475B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A7B1691BAB9F94002475B1 /* LaunchScreen.xib in Resources */,
+				40A4BA121BAC1AD3007EA628 /* DCDiscoverViewController.storyboard in Resources */,
+				40A4BA021BABF1DD007EA628 /* DCMenu.xib in Resources */,
+				40A7B1661BAB9F94002475B1 /* Images.xcassets in Resources */,
+				40A4BA101BAC0A8D007EA628 /* DCMyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A7B16C1BAB9F94002475B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A7B1511BAB9F94002475B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A4BA1B1BAC24E6007EA628 /* DCBuyBtn.m in Sources */,
+				40A4B9FD1BABED0B007EA628 /* DCCover.m in Sources */,
+				40A4BA371BAD3D2C007EA628 /* DCSettingViewController.m in Sources */,
+				40A7B1A51BABA28F002475B1 /* main.m in Sources */,
+				40A4BA241BACFB9A007EA628 /* DCNewFeatureViewController.m in Sources */,
+				40A4BA431BAD561B007EA628 /* DCPushViewController.m in Sources */,
+				40A4BA4B1BAD5AC1007EA628 /* DCAwardViewController.m in Sources */,
+				40A7B1A41BABA28F002475B1 /* AppDelegate.m in Sources */,
+				40A7B1A81BABA4D3002475B1 /* DCTabBarController.m in Sources */,
+				40A7B1BA1BABAF2A002475B1 /* DCNavigationViewController.m in Sources */,
+				40A4BA271BACFBBB007EA628 /* DCCollectionViewCell.m in Sources */,
+				40A4BA541BAD708E007EA628 /* DCGuideTool.m in Sources */,
+				40A4BA341BAD3CFC007EA628 /* DCSettingItem.m in Sources */,
+				40A7B1C01BABB6A8002475B1 /* DCTabBar.m in Sources */,
+				40A4BA0E1BAC0494007EA628 /* UIImage+DCExtension.m in Sources */,
+				40A7B1CA1BABC01B002475B1 /* UIView+Frame.m in Sources */,
+				40A4BA3D1BAD41B1007EA628 /* DCArrowItem.m in Sources */,
+				40A4BA001BABF1AE007EA628 /* DCMenu.m in Sources */,
+				40A7B1B71BABA7AF002475B1 /* DCMyViewController.m in Sources */,
+				40A7B1AE1BABA6E8002475B1 /* DCDiscoverViewController.m in Sources */,
+				40A4BA511BAD6F72007EA628 /* DCSaveTool.m in Sources */,
+				40A4BA081BAC02CB007EA628 /* DCArenaNavViewController.m in Sources */,
+				40A4BA051BABFD34007EA628 /* DCBackView.m in Sources */,
+				40A4BA481BAD5AA4007EA628 /* DCScoreViewController.m in Sources */,
+				40A7B1B41BABA734002475B1 /* DCHistoryViewController.m in Sources */,
+				40A4BA151BAC1E82007EA628 /* DCBuyViewController.m in Sources */,
+				40A4BA1E1BACF14D007EA628 /* DCLucyViewController.m in Sources */,
+				40A4BA2E1BAD3C9B007EA628 /* DCBaseController.m in Sources */,
+				40A4BA311BAD3CE7007EA628 /* DCGroupItem.m in Sources */,
+				40A7B1C31BABBCD6002475B1 /* DCTabBarBtn.m in Sources */,
+				40A7B1C91BABC01B002475B1 /* UIImage+Image.m in Sources */,
+				40A7B1B11BABA70D002475B1 /* DCHallViewController.m in Sources */,
+				40A4BA3A1BAD3D94007EA628 /* DCSettingViewCell.m in Sources */,
+				40A7B1AB1BABA6AD002475B1 /* DCArenaViewController.m in Sources */,
+				40A4BA401BAD4227007EA628 /* DCSwitchItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A7B16A1BAB9F94002475B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A7B1751BAB9F94002475B1 /* DCLotteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A7B1701BAB9F94002475B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A7B1541BAB9F94002475B1 /* DCLottery */;
+			targetProxy = 40A7B16F1BAB9F94002475B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A7B1671BAB9F94002475B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A7B1681BAB9F94002475B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A7B1761BAB9F94002475B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40A7B1771BAB9F94002475B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A7B1791BAB9F94002475B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DCLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40A7B17A1BAB9F94002475B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DCLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40A7B17C1BAB9F94002475B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCLotteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCLottery.app/DCLottery";
+			};
+			name = Debug;
+		};
+		40A7B17D1BAB9F94002475B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCLotteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCLottery.app/DCLottery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A7B1501BAB9F94002475B1 /* Build configuration list for PBXProject "DCLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A7B1761BAB9F94002475B1 /* Debug */,
+				40A7B1771BAB9F94002475B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A7B1781BAB9F94002475B1 /* Build configuration list for PBXNativeTarget "DCLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A7B1791BAB9F94002475B1 /* Debug */,
+				40A7B17A1BAB9F94002475B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A7B17B1BAB9F94002475B1 /* Build configuration list for PBXNativeTarget "DCLotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A7B17C1BAB9F94002475B1 /* Debug */,
+				40A7B17D1BAB9F94002475B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A7B14D1BAB9F94002475B1 /* Project object */;
+}
